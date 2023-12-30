@@ -1,0 +1,15 @@
+#defeated {
+  border: 1px solid;
+
+  #defeated-pokemon {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid;
+
+    .defeated-pokemon-row {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

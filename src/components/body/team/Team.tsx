@@ -3,14 +3,22 @@ import './Team.scss';
 
 const Team = () => {
   return (
-    <div>
+    <div id='team'>
       team
-      <AddPokemon />
-      <AddPokemon />
-      <AddPokemon />
-      <AddPokemon />
-      <AddPokemon />
-      <AddPokemon />
+      <div id='team-pokemon'>
+        <div className='team-pokemon-row'>
+          <AddPokemon />
+          <AddPokemon />
+        </div>
+        <div className='team-pokemon-row'>
+          <AddPokemon />
+          <AddPokemon />
+        </div>
+        <div className='team-pokemon-row'>
+          <AddPokemon />
+          <AddPokemon />
+        </div>
+      </div>
     </div>
   );
 };

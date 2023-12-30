@@ -1,0 +1,13 @@
+#body {
+  height: 80vh;
+  width: 100%;
+
+  #body-components {
+    display: flex;
+    flex-direction: row;
+
+    > * {
+      width: 50%;
+    }
+  }
+}

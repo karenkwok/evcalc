@@ -4,10 +4,12 @@ import './Body.scss';
 
 const Body = () => {
   return (
-    <div>
+    <div id='body'>
       body
-      <Team />
-      <Defeated />
+      <div id='body-components'>
+        <Team />
+        <Defeated />
+      </div>
     </div>
   );
 };

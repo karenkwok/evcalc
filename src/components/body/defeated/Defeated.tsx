@@ -3,14 +3,34 @@ import './Defeated.scss';
 
 const Defeated = () => {
   return (
-    <div>
+    <div id='defeated'>
       defeated
-      <AddPokemon />
-      <AddPokemon />
-      <AddPokemon />
-      <AddPokemon />
-      <AddPokemon />
-      <AddPokemon />
+      <div id='defeated-pokemon'>
+        <div className='defeated-pokemon-row'>
+          <AddPokemon />
+          <AddPokemon />
+          <AddPokemon />
+          <AddPokemon />
+        </div>
+        <div className='defeated-pokemon-row'>
+          <AddPokemon />
+          <AddPokemon />
+          <AddPokemon />
+          <AddPokemon />
+        </div>
+        <div className='defeated-pokemon-row'>
+          <AddPokemon />
+          <AddPokemon />
+          <AddPokemon />
+          <AddPokemon />
+        </div>
+        <div className='defeated-pokemon-row'>
+          <AddPokemon />
+          <AddPokemon />
+          <AddPokemon />
+          <AddPokemon />
+        </div>
+      </div>
     </div>
   );
 };
