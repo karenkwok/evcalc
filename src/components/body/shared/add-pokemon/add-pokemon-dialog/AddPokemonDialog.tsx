@@ -1,7 +1,7 @@
 import './AddPokemonDialog.scss';
 
 const AddPokemonDialog = () => {
-  return <div></div>;
+  return <div>add-pokemon-dialog</div>;
 };
 
 export default AddPokemonDialog;

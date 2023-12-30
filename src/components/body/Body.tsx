@@ -5,6 +5,7 @@ import './Body.scss';
 const Body = () => {
   return (
     <div>
+      body
       <Team />
       <Defeated />
     </div>
